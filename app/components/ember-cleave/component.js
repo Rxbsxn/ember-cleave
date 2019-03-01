@@ -1,0 +1,1 @@
+export { default } from 'ember-cleave/components/ember-cleave/component';
