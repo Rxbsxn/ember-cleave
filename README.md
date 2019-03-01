@@ -3,6 +3,11 @@ ember-cleave
 
 The addon is a wrapper on [Cleave.js](https://github.com/nosir/cleave.js) package made with Ember.js
 
+Preview
+------------------------------------------------------------------------------
+![alt text](https://raw.githubusercontent.com/Rxbsxn/Ember-cleave/master/addon-preview.png "Addon preview")
+
+
 Installation
 ------------------------------------------------------------------------------
 
