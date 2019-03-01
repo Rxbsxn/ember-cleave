@@ -1,13 +1,17 @@
 {
   "name": "ember-cleave",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Ember.js wrapper for Cleave.js",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cleave",
+    "ember-cleavejs",
+    "cleavejs",
+    "cleave"
   ],
-  "repository": "",
+  "repository": "https://github.com/Rxbsxn/Ember-cleave",
   "license": "MIT",
-  "author": "",
+  "author": "RXBSXN",
   "directories": {
     "doc": "doc",
     "test": "tests"
