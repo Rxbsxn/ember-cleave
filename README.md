@@ -21,18 +21,22 @@ Usage
 Define a options object in your component:
 ```js
 // component.js
-    dateOptions: computed(function() {
-    return {
-      date: true,
-      datePattern: ['Y', 'm', 'd']
-    }
-  }),
+dateOptions: computed(function() {
+  return {
+    date: true,
+    datePattern: ['Y', 'm', 'd']
+  }
+}),
 ```
 
 Then in your template:
 
 ```hbs
-  {{ember-cleave options=dateOptions}}
+<Ember-Cleave
+  @options={{dateOptions}}
+  @placeholder="Custom placeholder"
+  @value={{value}}
+/>
 ```
 
 Check documentation of [Cleave.js](https://nosir.github.io/cleave.js/) to see more usage options
