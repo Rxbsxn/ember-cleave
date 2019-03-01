@@ -1,0 +1,40 @@
+<h2>Credit Card input</h2>
+<div class="credit-card">
+  {{ember-cleave options=creditCardOptions}}
+  Credit Card Provider: {{cardName}}
+</div>
+
+<h2>Date input</h2>
+<div class="date">
+  {{ember-cleave options=dateOptions placeholder="Date Pattern: 'YYYY:MM:DD'"}}
+</div>
+
+<h2>Time input</h2>
+<div class="time">
+  {{ember-cleave options=timeOptions placeholder="Time Pattern: 'HH:MM:SS'"}}
+</div>
+
+<h2>Numeral input</h2>
+<div class="numeral">
+  {{ember-cleave options=numeralOptions placeholder="Seperate by thousands"}}
+</div>
+
+<h2>Custom input</h2>
+<div class="custom">
+  {{ember-cleave options=customOptions placeholder="Pattern: [4, 3, 3,4]"}}
+</div>
+
+<h2>Custom input with delimiter</h2>
+<div class="custom">
+  {{ember-cleave options=customOptionsWithDelimiter placeholder="Delimiter: ."}}
+</div>
+
+<h2>Custom input with prefix</h2>
+<div class="custom">
+  {{ember-cleave options=customOptionsWithPrefix}}
+</div>
+
+<h2>Customized input</h2>
+<div>
+  {{ember-cleave class="custom-class" options=numeralOptions placeholder="Seperate by thousands"}}
+</div>
