@@ -2,6 +2,9 @@ import Component from '@ember/component';
 import { computed } from '@ember/object';
 
 export default Component.extend({
+
+  defaultNumeralValue: 100000,
+
   creditCardOptions: computed(function() {
     return {
       creditCard: true,
