@@ -6,7 +6,8 @@
 
 <h2>Date input</h2>
 <div class="date">
-  <EmberCleave @options={{dateOptions}} @placeholder="Date Pattern: 'YYYY:MM:DD'" />
+  <EmberCleave @options={{dateOptions}} @onChange={{action (mut defaultDateValue)}} @value={{defaultDateValue}} @placeholder="Date Pattern: 'YYYY:MM:DD'" />
+  Value: {{defaultDateValue}}
 </div>
 
 <h2>Time input</h2>

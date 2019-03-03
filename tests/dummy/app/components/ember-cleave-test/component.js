@@ -9,6 +9,8 @@ export default Component.extend({
     }
   }),
 
+  defaultDateValue: '2019/02/12',
+
 
   dateOptions: computed(function() {
     return {

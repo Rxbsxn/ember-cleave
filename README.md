@@ -36,6 +36,7 @@ Then in your template:
   @options={{dateOptions}}
   @placeholder="Custom placeholder"
   @value={{value}}
+  @onChange={{action (mut value)}}
 />
 ```
 

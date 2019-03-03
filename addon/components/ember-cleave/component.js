@@ -9,7 +9,9 @@ export default Component.extend({
   type: 'text',
 
   keyUp() {
-    this.set('value', this.element.value)
+    if (this.onChange) {
+      this.onChange(this.element.value);
+    }
   },
 
   didInsertElement() {
