@@ -4,7 +4,7 @@ import { isPresent } from '@ember/utils';
 
 export default Component.extend({
   tagName: 'input',
-  attributeBindings: ['placeholder', 'type'],
+  attributeBindings: ['placeholder', 'type', 'disabled'],
 
   type: 'text',
 
