@@ -17,7 +17,7 @@ export default Component.extend({
   didInsertElement() {
     this._super(...arguments);
     this.set('cleave', new Cleave(`#${this.elementId}`, this.options));
-    this._setDefaultValue()
+    this._setDefaultValue();
   },
 
   didReceiveAttrs() {
@@ -29,7 +29,9 @@ export default Component.extend({
   },
 
   _setDefaultValue() {
-    if (isPresent(this.value))
-      this.element.value = this.value;
+    const { value } = this;
+
+    if (isPresent(value))
+      this.cleave.onInput(value.toString());
   }
 });
