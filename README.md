@@ -32,7 +32,7 @@ dateOptions: computed(function() {
 Then in your template:
 
 ```hbs
-<Ember-Cleave
+<EmberCleave
   @options={{dateOptions}}
   @placeholder="Custom placeholder"
   @value={{value}}
