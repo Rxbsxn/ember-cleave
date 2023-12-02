@@ -25,7 +25,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "cleave.js": "^1.4.7",
+    "cleave.js": "^1.6.0",
     "ember-cli-babel": "^7.1.2",
     "ember-auto-import": "^2.3.0"
   },
